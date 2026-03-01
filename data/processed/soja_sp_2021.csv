@@ -1,0 +1,643 @@
+codigo_ibge,nome_municipio,producao_ton
+3500105,Adamantina - SP,1350.0
+3500204,Adolfo - SP,1008.0
+3500303,Aguaí - SP,10783.0
+3500402,Águas da Prata - SP,
+3500501,Águas de Lindóia - SP,
+3500550,Águas de Santa Bárbara - SP,42000.0
+3500600,Águas de São Pedro - SP,
+3500709,Agudos - SP,2475.0
+3500758,Alambari - SP,7590.0
+3500808,Alfredo Marcondes - SP,
+3500907,Altair - SP,3000.0
+3501004,Altinópolis - SP,8602.0
+3501103,Alto Alegre - SP,1152.0
+3501152,Alumínio - SP,
+3501202,Álvares Florence - SP,2520.0
+3501301,Álvares Machado - SP,150.0
+3501400,Álvaro de Carvalho - SP,96.0
+3501509,Alvinlândia - SP,
+3501608,Americana - SP,
+3501707,Américo Brasiliense - SP,
+3501806,Américo de Campos - SP,3000.0
+3501905,Amparo - SP,187.0
+3502002,Analândia - SP,1980.0
+3502101,Andradina - SP,81.0
+3502200,Angatuba - SP,32550.0
+3502309,Anhembi - SP,483.0
+3502408,Anhumas - SP,1500.0
+3502507,Aparecida - SP,
+3502606,Aparecida d'Oeste - SP,
+3502705,Apiaí - SP,6000.0
+3502754,Araçariguama - SP,
+3502804,Araçatuba - SP,20700.0
+3502903,Araçoiaba da Serra - SP,3740.0
+3503000,Aramina - SP,6024.0
+3503109,Arandu - SP,25482.0
+3503158,Arapeí - SP,
+3503208,Araraquara - SP,6000.0
+3503307,Araras - SP,10800.0
+3503356,Arco-Íris - SP,
+3503406,Arealva - SP,2994.0
+3503505,Areias - SP,
+3503604,Areiópolis - SP,125.0
+3503703,Ariranha - SP,256.0
+3503802,Artur Nogueira - SP,900.0
+3503901,Arujá - SP,
+3503950,Aspásia - SP,
+3504008,Assis - SP,23096.0
+3504107,Atibaia - SP,3000.0
+3504206,Auriflama - SP,550.0
+3504305,Avaí - SP,
+3504404,Avanhandava - SP,1200.0
+3504503,Avaré - SP,51200.0
+3504602,Bady Bassitt - SP,1560.0
+3504701,Balbinos - SP,
+3504800,Bálsamo - SP,540.0
+3504909,Bananal - SP,
+3505005,Barão de Antonina - SP,16860.0
+3505104,Barbosa - SP,562.0
+3505203,Bariri - SP,4719.0
+3505302,Barra Bonita - SP,1557.0
+3505351,Barra do Chapéu - SP,
+3505401,Barra do Turvo - SP,
+3505500,Barretos - SP,15080.0
+3505609,Barrinha - SP,208.0
+3505708,Barueri - SP,
+3505807,Bastos - SP,
+3505906,Batatais - SP,12540.0
+3506003,Bauru - SP,
+3506102,Bebedouro - SP,6600.0
+3506201,Bento de Abreu - SP,2330.0
+3506300,Bernardino de Campos - SP,14130.0
+3506359,Bertioga - SP,
+3506409,Bilac - SP,2139.0
+3506508,Birigui - SP,32335.0
+3506607,Biritiba Mirim - SP,
+3506706,Boa Esperança do Sul - SP,3600.0
+3506805,Bocaina - SP,699.0
+3506904,Bofete - SP,
+3507001,Boituva - SP,2625.0
+3507100,Bom Jesus dos Perdões - SP,
+3507159,Bom Sucesso de Itararé - SP,
+3507209,Borá - SP,
+3507308,Boracéia - SP,1915.0
+3507407,Borborema - SP,1350.0
+3507456,Borebi - SP,1502.0
+3507506,Botucatu - SP,1789.0
+3507605,Bragança Paulista - SP,2000.0
+3507704,Braúna - SP,3465.0
+3507753,Brejo Alegre - SP,11160.0
+3507803,Brodowski - SP,1260.0
+3507902,Brotas - SP,12150.0
+3508009,Buri - SP,87390.0
+3508108,Buritama - SP,1620.0
+3508207,Buritizal - SP,4640.0
+3508306,Cabrália Paulista - SP,
+3508405,Cabreúva - SP,
+3508504,Caçapava - SP,
+3508603,Cachoeira Paulista - SP,
+3508702,Caconde - SP,360.0
+3508801,Cafelândia - SP,2636.0
+3508900,Caiabu - SP,
+3509007,Caieiras - SP,
+3509106,Caiuá - SP,500.0
+3509205,Cajamar - SP,
+3509254,Cajati - SP,
+3509304,Cajobi - SP,150.0
+3509403,Cajuru - SP,1344.0
+3509452,Campina do Monte Alegre - SP,16800.0
+3509502,Campinas - SP,1920.0
+3509601,Campo Limpo Paulista - SP,
+3509700,Campos do Jordão - SP,
+3509809,Campos Novos Paulista - SP,44160.0
+3509908,Cananéia - SP,
+3509957,Canas - SP,
+3510005,Cândido Mota - SP,98894.0
+3510104,Cândido Rodrigues - SP,
+3510153,Canitar - SP,5600.0
+3510203,Capão Bonito - SP,105600.0
+3510302,Capela do Alto - SP,2940.0
+3510401,Capivari - SP,270.0
+3510500,Caraguatatuba - SP,
+3510609,Carapicuíba - SP,
+3510708,Cardoso - SP,10169.0
+3510807,Casa Branca - SP,44291.0
+3510906,Cássia dos Coqueiros - SP,945.0
+3511003,Castilho - SP,4648.0
+3511102,Catanduva - SP,396.0
+3511201,Catiguá - SP,630.0
+3511300,Cedral - SP,900.0
+3511409,Cerqueira César - SP,51360.0
+3511508,Cerquilho - SP,1120.0
+3511607,Cesário Lange - SP,8820.0
+3511706,Charqueada - SP,
+3511904,Clementina - SP,360.0
+3512001,Colina - SP,3380.0
+3512100,Colômbia - SP,3900.0
+3512209,Conchal - SP,13650.0
+3512308,Conchas - SP,735.0
+3512407,Cordeirópolis - SP,961.0
+3512506,Coroados - SP,6418.0
+3512605,Coronel Macedo - SP,37414.0
+3512704,Corumbataí - SP,1080.0
+3512803,Cosmópolis - SP,420.0
+3512902,Cosmorama - SP,720.0
+3513009,Cotia - SP,
+3513108,Cravinhos - SP,
+3513207,Cristais Paulista - SP,2520.0
+3513306,Cruzália - SP,23056.0
+3513405,Cruzeiro - SP,
+3513504,Cubatão - SP,
+3513603,Cunha - SP,
+3513702,Descalvado - SP,3600.0
+3513850,Dirce Reis - SP,
+3513900,Divinolândia - SP,
+3514007,Dobrada - SP,700.0
+3514106,Dois Córregos - SP,3113.0
+3514205,Dolcinópolis - SP,
+3514304,Dourado - SP,724.0
+3514403,Dracena - SP,204.0
+3514502,Duartina - SP,
+3514601,Dumont - SP,1080.0
+3514700,Echaporã - SP,9408.0
+3514809,Eldorado - SP,
+3514908,Elias Fausto - SP,447.0
+3514924,Elisiário - SP,276.0
+3514957,Embaúba - SP,162.0
+3515004,Embu das Artes - SP,
+3515103,Embu-Guaçu - SP,
+3515129,Emilianópolis - SP,2520.0
+3515152,Engenheiro Coelho - SP,2055.0
+3515186,Espírito Santo do Pinhal - SP,
+3515194,Espírito Santo do Turvo - SP,8280.0
+3515202,Estrela d'Oeste - SP,144.0
+3515301,Estrela do Norte - SP,250.0
+3515350,Euclides da Cunha Paulista - SP,2520.0
+3515400,Fartura - SP,15000.0
+3515509,Fernandópolis - SP,300.0
+3515608,Fernando Prestes - SP,126.0
+3515657,Fernão - SP,750.0
+3515707,Ferraz de Vasconcelos - SP,
+3515806,Flora Rica - SP,1800.0
+3515905,Floreal - SP,900.0
+3516002,Flórida Paulista - SP,1020.0
+3516101,Florínea - SP,22881.0
+3516200,Franca - SP,3289.0
+3516309,Francisco Morato - SP,
+3516408,Franco da Rocha - SP,
+3516507,Gabriel Monteiro - SP,1410.0
+3516606,Gália - SP,2550.0
+3516705,Garça - SP,4500.0
+3516804,Gastão Vidigal - SP,1325.0
+3516853,Gavião Peixoto - SP,3984.0
+3516903,General Salgado - SP,1800.0
+3517000,Getulina - SP,1044.0
+3517109,Glicério - SP,8400.0
+3517208,Guaiçara - SP,1185.0
+3517307,Guaimbê - SP,1824.0
+3517406,Guaíra - SP,70820.0
+3517505,Guapiaçu - SP,2772.0
+3517604,Guapiara - SP,20000.0
+3517703,Guará - SP,12886.0
+3517802,Guaraçaí - SP,
+3517901,Guaraci - SP,1324.0
+3518008,Guarani d'Oeste - SP,726.0
+3518107,Guarantã - SP,36.0
+3518206,Guararapes - SP,12250.0
+3518305,Guararema - SP,
+3518404,Guaratinguetá - SP,185.0
+3518503,Guareí - SP,7200.0
+3518602,Guariba - SP,3960.0
+3518701,Guarujá - SP,
+3518800,Guarulhos - SP,
+3518859,Guatapará - SP,100.0
+3518909,Guzolândia - SP,2033.0
+3519006,Herculândia - SP,1242.0
+3519055,Holambra - SP,2520.0
+3519071,Hortolândia - SP,
+3519105,Iacanga - SP,12000.0
+3519204,Iacri - SP,3240.0
+3519253,Iaras - SP,13494.0
+3519303,Ibaté - SP,420.0
+3519402,Ibirá - SP,2160.0
+3519501,Ibirarema - SP,36000.0
+3519600,Ibitinga - SP,5400.0
+3519709,Ibiúna - SP,840.0
+3519808,Icém - SP,1500.0
+3519907,Iepê - SP,38450.0
+3520004,Igaraçu do Tietê - SP,
+3520103,Igarapava - SP,7227.0
+3520202,Igaratá - SP,
+3520301,Iguape - SP,
+3520400,Ilhabela - SP,
+3520442,Ilha Solteira - SP,1900.0
+3520509,Indaiatuba - SP,840.0
+3520608,Indiana - SP,450.0
+3520707,Indiaporã - SP,2225.0
+3520806,Inúbia Paulista - SP,660.0
+3520905,Ipaussu - SP,4290.0
+3521002,Iperó - SP,262.0
+3521101,Ipeúna - SP,
+3521150,Ipiguá - SP,600.0
+3521200,Iporanga - SP,
+3521309,Ipuã - SP,31524.0
+3521408,Iracemápolis - SP,1567.0
+3521507,Irapuã - SP,600.0
+3521606,Irapuru - SP,
+3521705,Itaberá - SP,161963.0
+3521804,Itaí - SP,100848.0
+3521903,Itajobi - SP,
+3522000,Itaju - SP,3320.0
+3522109,Itanhaém - SP,
+3522158,Itaoca - SP,
+3522208,Itapecerica da Serra - SP,
+3522307,Itapetininga - SP,115200.0
+3522406,Itapeva - SP,278064.0
+3522505,Itapevi - SP,
+3522604,Itapira - SP,3888.0
+3522653,Itapirapuã Paulista - SP,
+3522703,Itápolis - SP,19000.0
+3522802,Itaporanga - SP,42748.0
+3522901,Itapuí - SP,413.0
+3523008,Itapura - SP,5587.0
+3523107,Itaquaquecetuba - SP,
+3523206,Itararé - SP,84000.0
+3523305,Itariri - SP,
+3523404,Itatiba - SP,210.0
+3523503,Itatinga - SP,1260.0
+3523602,Itirapina - SP,780.0
+3523701,Itirapuã - SP,504.0
+3523800,Itobi - SP,3720.0
+3523909,Itu - SP,1080.0
+3524006,Itupeva - SP,36.0
+3524105,Ituverava - SP,31990.0
+3524204,Jaborandi - SP,5361.0
+3524303,Jaboticabal - SP,13212.0
+3524402,Jacareí - SP,
+3524501,Jaci - SP,720.0
+3524600,Jacupiranga - SP,
+3524709,Jaguariúna - SP,432.0
+3524808,Jales - SP,
+3524907,Jambeiro - SP,
+3525003,Jandira - SP,
+3525102,Jardinópolis - SP,7200.0
+3525201,Jarinu - SP,
+3525300,Jaú - SP,11959.0
+3525409,Jeriquara - SP,2160.0
+3525508,Joanópolis - SP,
+3525607,João Ramalho - SP,4130.0
+3525706,José Bonifácio - SP,14850.0
+3525805,Júlio Mesquita - SP,
+3525854,Jumirim - SP,432.0
+3525904,Jundiaí - SP,
+3526001,Junqueirópolis - SP,1311.0
+3526100,Juquiá - SP,
+3526209,Juquitiba - SP,
+3526308,Lagoinha - SP,
+3526407,Laranjal Paulista - SP,349.0
+3526506,Lavínia - SP,2504.0
+3526605,Lavrinhas - SP,
+3526704,Leme - SP,7200.0
+3526803,Lençóis Paulista - SP,17160.0
+3526902,Limeira - SP,3240.0
+3527009,Lindóia - SP,
+3527108,Lins - SP,540.0
+3527207,Lorena - SP,66.0
+3527256,Lourdes - SP,2400.0
+3527306,Louveira - SP,
+3527405,Lucélia - SP,1600.0
+3527504,Lucianópolis - SP,580.0
+3527603,Luís Antônio - SP,5850.0
+3527702,Luiziânia - SP,450.0
+3527801,Lupércio - SP,2848.0
+3527900,Lutécia - SP,10800.0
+3528007,Macatuba - SP,7298.0
+3528106,Macaubal - SP,990.0
+3528205,Macedônia - SP,1050.0
+3528304,Magda - SP,2880.0
+3528403,Mairinque - SP,1280.0
+3528502,Mairiporã - SP,
+3528601,Manduri - SP,6346.0
+3528700,Marabá Paulista - SP,3485.0
+3528809,Maracaí - SP,81740.0
+3528858,Marapoama - SP,350.0
+3528908,Mariápolis - SP,100.0
+3529005,Marília - SP,2160.0
+3529104,Marinópolis - SP,
+3529203,Martinópolis - SP,9120.0
+3529302,Matão - SP,9240.0
+3529401,Mauá - SP,
+3529500,Mendonça - SP,480.0
+3529609,Meridiano - SP,3280.0
+3529658,Mesópolis - SP,1632.0
+3529708,Miguelópolis - SP,58809.0
+3529807,Mineiros do Tietê - SP,3344.0
+3529906,Miracatu - SP,
+3530003,Mira Estrela - SP,374.0
+3530102,Mirandópolis - SP,1440.0
+3530201,Mirante do Paranapanema - SP,9600.0
+3530300,Mirassol - SP,1700.0
+3530409,Mirassolândia - SP,900.0
+3530508,Mococa - SP,7950.0
+3530607,Mogi das Cruzes - SP,
+3530706,Mogi Guaçu - SP,12600.0
+3530805,Mogi Mirim - SP,11880.0
+3530904,Mombuca - SP,158.0
+3531001,Monções - SP,513.0
+3531100,Mongaguá - SP,
+3531209,Monte Alegre do Sul - SP,
+3531308,Monte Alto - SP,1920.0
+3531407,Monte Aprazível - SP,2700.0
+3531506,Monte Azul Paulista - SP,1113.0
+3531605,Monte Castelo - SP,159.0
+3531704,Monteiro Lobato - SP,
+3531803,Monte Mor - SP,382.0
+3531902,Morro Agudo - SP,42240.0
+3532009,Morungaba - SP,303.0
+3532058,Motuca - SP,2088.0
+3532108,Murutinga do Sul - SP,192.0
+3532157,Nantes - SP,24160.0
+3532207,Narandiba - SP,460.0
+3532306,Natividade da Serra - SP,
+3532405,Nazaré Paulista - SP,
+3532504,Neves Paulista - SP,3960.0
+3532603,Nhandeara - SP,4680.0
+3532702,Nipoã - SP,710.0
+3532801,Nova Aliança - SP,
+3532827,Nova Campina - SP,1113.0
+3532843,Nova Canaã Paulista - SP,
+3532868,Nova Castilho - SP,2380.0
+3532900,Nova Europa - SP,2160.0
+3533007,Nova Granada - SP,5265.0
+3533106,Nova Guataporanga - SP,
+3533205,Nova Independência - SP,
+3533254,Novais - SP,1350.0
+3533304,Nova Luzitânia - SP,1000.0
+3533403,Nova Odessa - SP,60.0
+3533502,Novo Horizonte - SP,1890.0
+3533601,Nuporanga - SP,14571.0
+3533700,Ocauçu - SP,2427.0
+3533809,Óleo - SP,24792.0
+3533908,Olímpia - SP,1160.0
+3534005,Onda Verde - SP,360.0
+3534104,Oriente - SP,
+3534203,Orindiúva - SP,11253.0
+3534302,Orlândia - SP,6930.0
+3534401,Osasco - SP,
+3534500,Oscar Bressane - SP,558.0
+3534609,Osvaldo Cruz - SP,477.0
+3534708,Ourinhos - SP,13680.0
+3534757,Ouroeste - SP,900.0
+3534807,Ouro Verde - SP,732.0
+3534906,Pacaembu - SP,683.0
+3535002,Palestina - SP,6350.0
+3535101,Palmares Paulista - SP,3600.0
+3535200,Palmeira d'Oeste - SP,500.0
+3535309,Palmital - SP,91807.0
+3535408,Panorama - SP,
+3535507,Paraguaçu Paulista - SP,13680.0
+3535606,Paraibuna - SP,
+3535705,Paraíso - SP,600.0
+3535804,Paranapanema - SP,82350.0
+3535903,Paranapuã - SP,600.0
+3536000,Parapuã - SP,1500.0
+3536109,Pardinho - SP,2100.0
+3536208,Pariquera-Açu - SP,
+3536257,Parisi - SP,300.0
+3536307,Patrocínio Paulista - SP,3960.0
+3536406,Paulicéia - SP,900.0
+3536505,Paulínia - SP,
+3536570,Paulistânia - SP,780.0
+3536604,Paulo de Faria - SP,8840.0
+3536703,Pederneiras - SP,13260.0
+3536802,Pedra Bela - SP,900.0
+3536901,Pedranópolis - SP,360.0
+3537008,Pedregulho - SP,1798.0
+3537107,Pedreira - SP,
+3537156,Pedrinhas Paulista - SP,26760.0
+3537206,Pedro de Toledo - SP,
+3537305,Penápolis - SP,15840.0
+3537404,Pereira Barreto - SP,4752.0
+3537503,Pereiras - SP,
+3537602,Peruíbe - SP,
+3537701,Piacatu - SP,4080.0
+3537800,Piedade - SP,360.0
+3537909,Pilar do Sul - SP,35100.0
+3538006,Pindamonhangaba - SP,2952.0
+3538105,Pindorama - SP,720.0
+3538204,Pinhalzinho - SP,1440.0
+3538303,Piquerobi - SP,943.0
+3538501,Piquete - SP,
+3538600,Piracaia - SP,
+3538709,Piracicaba - SP,2880.0
+3538808,Piraju - SP,32190.0
+3538907,Pirajuí - SP,5250.0
+3539004,Pirangi - SP,750.0
+3539103,Pirapora do Bom Jesus - SP,
+3539202,Pirapozinho - SP,1630.0
+3539301,Pirassununga - SP,21600.0
+3539400,Piratininga - SP,731.0
+3539509,Pitangueiras - SP,2100.0
+3539608,Planalto - SP,3240.0
+3539707,Platina - SP,32572.0
+3539806,Poá - SP,
+3539905,Poloni - SP,270.0
+3540002,Pompéia - SP,1260.0
+3540101,Pongaí - SP,312.0
+3540200,Pontal - SP,2640.0
+3540259,Pontalinda - SP,216.0
+3540309,Pontes Gestal - SP,2592.0
+3540408,Populina - SP,496.0
+3540507,Porangaba - SP,396.0
+3540606,Porto Feliz - SP,840.0
+3540705,Porto Ferreira - SP,7200.0
+3540754,Potim - SP,99.0
+3540804,Potirendaba - SP,2400.0
+3540853,Pracinha - SP,374.0
+3540903,Pradópolis - SP,6735.0
+3541000,Praia Grande - SP,
+3541059,Pratânia - SP,
+3541109,Presidente Alves - SP,
+3541208,Presidente Bernardes - SP,7180.0
+3541307,Presidente Epitácio - SP,960.0
+3541406,Presidente Prudente - SP,
+3541505,Presidente Venceslau - SP,
+3541604,Promissão - SP,5280.0
+3541653,Quadra - SP,6242.0
+3541703,Quatá - SP,4380.0
+3541802,Queiroz - SP,300.0
+3541901,Queluz - SP,
+3542008,Quintana - SP,6000.0
+3542107,Rafard - SP,
+3542206,Rancharia - SP,62890.0
+3542305,Redenção da Serra - SP,
+3542404,Regente Feijó - SP,3390.0
+3542503,Reginópolis - SP,1755.0
+3542602,Registro - SP,
+3542701,Restinga - SP,380.0
+3542800,Ribeira - SP,
+3542909,Ribeirão Bonito - SP,
+3543006,Ribeirão Branco - SP,2160.0
+3543105,Ribeirão Corrente - SP,840.0
+3543204,Ribeirão do Sul - SP,46250.0
+3543238,Ribeirão dos Índios - SP,2484.0
+3543253,Ribeirão Grande - SP,7200.0
+3543303,Ribeirão Pires - SP,
+3543402,Ribeirão Preto - SP,1470.0
+3543501,Riversul - SP,14060.0
+3543600,Rifaina - SP,600.0
+3543709,Rincão - SP,330.0
+3543808,Rinópolis - SP,2430.0
+3543907,Rio Claro - SP,650.0
+3544004,Rio das Pedras - SP,2000.0
+3544103,Rio Grande da Serra - SP,
+3544202,Riolândia - SP,7800.0
+3544251,Rosana - SP,9544.0
+3544301,Roseira - SP,360.0
+3544400,Rubiácea - SP,1062.0
+3544509,Rubinéia - SP,204.0
+3544608,Sabino - SP,2511.0
+3544707,Sagres - SP,225.0
+3544806,Sales - SP,450.0
+3544905,Sales Oliveira - SP,7520.0
+3545001,Salesópolis - SP,
+3545100,Salmourão - SP,700.0
+3545159,Saltinho - SP,50.0
+3545209,Salto - SP,480.0
+3545308,Salto de Pirapora - SP,4000.0
+3545407,Salto Grande - SP,47600.0
+3545506,Sandovalina - SP,2565.0
+3545605,Santa Adélia - SP,1800.0
+3545704,Santa Albertina - SP,
+3545803,Santa Bárbara d'Oeste - SP,800.0
+3546009,Santa Branca - SP,
+3546108,Santa Clara d'Oeste - SP,204.0
+3546207,Santa Cruz da Conceição - SP,2046.0
+3546256,Santa Cruz da Esperança - SP,360.0
+3546306,Santa Cruz das Palmeiras - SP,4500.0
+3546405,Santa Cruz do Rio Pardo - SP,111600.0
+3546504,Santa Ernestina - SP,525.0
+3546603,Santa Fé do Sul - SP,158.0
+3546702,Santa Gertrudes - SP,260.0
+3546801,Santa Isabel - SP,
+3546900,Santa Lúcia - SP,1120.0
+3547007,Santa Maria da Serra - SP,5250.0
+3547106,Santa Mercedes - SP,480.0
+3547205,Santana da Ponte Pensa - SP,504.0
+3547304,Santana de Parnaíba - SP,
+3547403,Santa Rita d'Oeste - SP,3900.0
+3547502,Santa Rita do Passa Quatro - SP,500.0
+3547601,Santa Rosa de Viterbo - SP,6240.0
+3547650,Santa Salete - SP,90.0
+3547700,Santo Anastácio - SP,14541.0
+3547809,Santo André - SP,
+3547908,Santo Antônio da Alegria - SP,1800.0
+3548005,Santo Antônio de Posse - SP,660.0
+3548054,Santo Antônio do Aracanguá - SP,22200.0
+3548104,Santo Antônio do Jardim - SP,
+3548203,Santo Antônio do Pinhal - SP,
+3548302,Santo Expedito - SP,
+3548401,Santópolis do Aguapeí - SP,
+3548500,Santos - SP,
+3548609,São Bento do Sapucaí - SP,
+3548708,São Bernardo do Campo - SP,
+3548906,São Carlos - SP,6480.0
+3549003,São Francisco - SP,390.0
+3549102,São João da Boa Vista - SP,315.0
+3549201,São João das Duas Pontes - SP,
+3549250,São João de Iracema - SP,450.0
+3549300,São João do Pau d'Alho - SP,
+3549409,São Joaquim da Barra - SP,10913.0
+3549508,São José da Bela Vista - SP,5400.0
+3549607,São José do Barreiro - SP,
+3549706,São José do Rio Pardo - SP,3150.0
+3549805,São José do Rio Preto - SP,1140.0
+3549904,São José dos Campos - SP,
+3549953,São Lourenço da Serra - SP,
+3550001,São Luiz do Paraitinga - SP,
+3550100,São Manuel - SP,
+3550209,São Miguel Arcanjo - SP,45600.0
+3550308,São Paulo - SP,
+3550407,São Pedro - SP,350.0
+3550506,São Pedro do Turvo - SP,46200.0
+3550605,São Roque - SP,1620.0
+3550704,São Sebastião - SP,
+3550803,São Sebastião da Grama - SP,198.0
+3550902,São Simão - SP,
+3551009,São Vicente - SP,
+3551108,Sarapuí - SP,6000.0
+3551207,Sarutaiá - SP,7200.0
+3551306,Sebastianópolis do Sul - SP,900.0
+3551405,Serra Azul - SP,2400.0
+3551504,Serrana - SP,480.0
+3551603,Serra Negra - SP,840.0
+3551702,Sertãozinho - SP,1500.0
+3551801,Sete Barras - SP,
+3551900,Severínia - SP,600.0
+3552007,Silveiras - SP,
+3552106,Socorro - SP,2520.0
+3552205,Sorocaba - SP,2100.0
+3552304,Sud Mennucci - SP,10709.0
+3552403,Sumaré - SP,1400.0
+3552502,Suzano - SP,
+3552551,Suzanápolis - SP,972.0
+3552601,Tabapuã - SP,1152.0
+3552700,Tabatinga - SP,5266.0
+3552809,Taboão da Serra - SP,
+3552908,Taciba - SP,27650.0
+3553005,Taguaí - SP,5550.0
+3553104,Taiaçu - SP,477.0
+3553203,Taiúva - SP,254.0
+3553302,Tambaú - SP,2100.0
+3553401,Tanabi - SP,4500.0
+3553500,Tapiraí - SP,
+3553609,Tapiratiba - SP,2520.0
+3553658,Taquaral - SP,300.0
+3553708,Taquaritinga - SP,5270.0
+3553807,Taquarituba - SP,94600.0
+3553856,Taquarivaí - SP,43426.0
+3553906,Tarabai - SP,290.0
+3553955,Tarumã - SP,15419.0
+3554003,Tatuí - SP,15000.0
+3554102,Taubaté - SP,2340.0
+3554201,Tejupá - SP,7560.0
+3554300,Teodoro Sampaio - SP,7731.0
+3554409,Terra Roxa - SP,4500.0
+3554508,Tietê - SP,280.0
+3554607,Timburi - SP,2730.0
+3554656,Torre de Pedra - SP,
+3554706,Torrinha - SP,5517.0
+3554755,Trabiju - SP,144.0
+3554805,Tremembé - SP,300.0
+3554904,Três Fronteiras - SP,
+3554953,Tuiuti - SP,
+3555000,Tupã - SP,2376.0
+3555109,Tupi Paulista - SP,900.0
+3555208,Turiúba - SP,1644.0
+3555307,Turmalina - SP,
+3555356,Ubarana - SP,2304.0
+3555406,Ubatuba - SP,
+3555505,Ubirajara - SP,1980.0
+3555604,Uchoa - SP,1050.0
+3555703,União Paulista - SP,1184.0
+3555802,Urânia - SP,
+3555901,Uru - SP,115.0
+3556008,Urupês - SP,600.0
+3556107,Valentim Gentil - SP,90.0
+3556206,Valinhos - SP,
+3556305,Valparaíso - SP,648.0
+3556354,Vargem - SP,1216.0
+3556404,Vargem Grande do Sul - SP,2400.0
+3556453,Vargem Grande Paulista - SP,
+3556503,Várzea Paulista - SP,
+3556602,Vera Cruz - SP,
+3556701,Vinhedo - SP,
+3556800,Viradouro - SP,4770.0
+3556909,Vista Alegre do Alto - SP,525.0
+3556958,Vitória Brasil - SP,360.0
+3557006,Votorantim - SP,1450.0
+3557105,Votuporanga - SP,1080.0
+3557154,Zacarias - SP,2160.0
+3557204,Chavantes - SP,7920.0
+3557303,Estiva Gerbi - SP,900.0
