@@ -1,0 +1,21 @@
+# Ambiente virtual
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dados brutos
+data/raw/
+
+# Outputs
+outputs/
+
+# VS Code
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
