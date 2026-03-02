@@ -102,6 +102,7 @@ Categorical territorial density map:
 
 ### 🏗️ Project Structure
 
+```
 soy_density_sp/
 │
 ├── data/
@@ -121,7 +122,7 @@ soy_density_sp/
 │
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ### ⚙️ Pipeline Overview
@@ -171,6 +172,7 @@ Git / GitHub
 ### 🚀 Author
 
 João Luiz de Pádua
+
 Geospatial Data | Agribusiness Intelligence | Spatial Analytics
 
 ---
