@@ -55,7 +55,9 @@ densidade_ton_km2 = producao_ton / area_km2
 
 This shifts the analysis from absolute production to spatial intensity.
 
-4️⃣ Statistical Classification
+---
+
+### 4️⃣ Statistical Classification
 
 Municipalities with zero production were isolated before classification.
 
@@ -79,7 +81,9 @@ Média
 
 Alta
 
-📊 Key Insights
+---
+
+### 📊 Key Insights
 
 Production density is strongly concentrated in the southwest region of São Paulo.
 
@@ -89,11 +93,14 @@ Several municipalities rank high in territorial density despite not leading in t
 
 Density-based ranking provides different strategic insights compared to total production ranking.
 
-🗺️ Final Output
+--- 
+
+### 🗺️ Final Output
 
 Categorical territorial density map:
+![Soybean Density Map](outputs/mapa_soja_densidade_sp.png)
 
-🏗️ Project Structure
+### 🏗️ Project Structure
 soy_density_sp/
 │
 ├── data/
@@ -113,7 +120,10 @@ soy_density_sp/
 │
 ├── requirements.txt
 └── README.md
-⚙️ Pipeline Overview
+
+---
+
+### ⚙️ Pipeline Overview
 
 Process municipal shapefile
 
@@ -127,7 +137,9 @@ Classify municipalities
 
 Generate map and export outputs
 
-🛠️ Technologies Used
+---
+
+### 🛠️ Technologies Used
 
 Python 3.11
 
@@ -143,25 +155,21 @@ IBGE SIDRA API
 
 Git / GitHub
 
-📌 Why This Matters
+---
 
-Traditional agricultural analysis often focuses only on total production.
+### 📌 Why This Matters
 
-Territorial density introduces a spatial intelligence perspective:
+- Credit allocation  
+- Risk modeling  
+- Logistics planning  
+- Regional investment strategy  
+- Land-use intensity evaluation  
 
-Credit allocation
+---
 
-Risk modeling
-
-Logistics planning
-
-Regional investment strategy
-
-Land-use intensity evaluation
-
-This approach bridges agricultural data with geospatial analytics.
-
-🚀 Author
+### 🚀 Author
 
 João Luiz de Pádua
 Geospatial Data | Agribusiness Intelligence | Spatial Analytics
+
+---
