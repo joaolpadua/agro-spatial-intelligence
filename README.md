@@ -51,6 +51,7 @@ Territorial density was calculated as:
 
 ```python
 densidade_ton_km2 = producao_ton / area_km2
+```
 
 This shifts the analysis from absolute production to spatial intensity.
 
