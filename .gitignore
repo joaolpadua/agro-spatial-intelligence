@@ -10,9 +10,6 @@ __pycache__/
 # Dados brutos
 data/raw/
 
-# Outputs
-outputs/
-
 # VS Code
 .vscode/
 
