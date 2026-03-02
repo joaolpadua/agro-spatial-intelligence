@@ -1,88 +1,108 @@
 # Agro Spatial Intelligence  
 ### Territorial Density Analysis of Soybean Production – São Paulo (2021)
 
----
+This project analyzes soybean production in São Paulo using a territorial density approach instead of traditional total-volume ranking.
 
-## 📌 Project Overview
+Instead of asking *"who produces more?"*, we ask:
 
-Traditional soybean production analysis ranks municipalities by total output.  
-While useful, this approach hides how production is spatially distributed across territory.
-
-This project applies **geospatial analysis** to measure:
-
-> **Territorial Production Density (ton/km²)**
-
-The goal is not to identify the largest producers —  
-but to reveal the most territorially concentrated ones.
+> How concentrated is soybean production within each municipality's territory?
 
 ---
 
-## 🎯 Business Question
+## 🎯 Objective
 
-Which municipalities in São Paulo concentrate the highest soybean production relative to their territorial area?
+To build a structured geospatial pipeline that:
 
-How does this spatial density ranking differ from traditional total-production rankings?
+- Collects official agricultural production data (IBGE – SIDRA API)
+- Integrates municipal territorial boundaries
+- Calculates territorial production density (ton/km²)
+- Classifies municipalities statistically
+- Generates analytical outputs and visualization
 
----
-
-## 🧠 Why This Matters
-
-Territorial production density introduces a spatial intelligence layer that can support:
-
-- Agricultural credit allocation  
-- Commercial expansion strategies  
-- Regional specialization assessment  
-- Market intelligence for agribusiness  
-
-It shifts the focus from **"who produces more"**  
-to **"where production is spatially concentrated"**.
+This project demonstrates practical spatial data engineering applied to agribusiness intelligence.
 
 ---
 
-## 🗺️ Results Snapshot
-
-The map below highlights soybean territorial density across São Paulo (2021):
-
-![Soybean Density Map](outputs/mapa_soja_densidade_sp.png)
-
-Key observation:
-
-- The density ranking differs significantly from total production ranking.
-- A strong concentration corridor emerges in the southwest region of São Paulo, near Paraná’s agricultural belt.
-- Some municipalities with moderate total production exhibit high territorial concentration.
-
----
-
-## 🏗️ Methodology
+## 🧠 Methodological Approach
 
 ### 1️⃣ Territorial Base
 
-- Official IBGE municipal boundaries (2024)
-- Reprojection to metric CRS (SIRGAS 2000 / UTM)
-- Municipal area calculation in km²
+- Municipal boundaries (São Paulo – 2024)
+- Reprojected to **SIRGAS 2000 / UTM Zone 23S (EPSG:31983)**
+- Area recalculated in km² for analytical consistency
 
-### 2️⃣ Production Data
+---
 
-- IBGE SIDRA API
-- Table 1612 – Lavouras Temporárias
-- Variable: Quantity Produced (tons)
-- Product: Soybean (grain)
-- Year: 2021
+### 2️⃣ Agricultural Data
 
-### 3️⃣ Data Integration
+Source: IBGE – Produção Agrícola Municipal (PAM)  
+Table: 1612  
+Product: Soybean (Soja em grão)  
+Year: 2021  
+Variable: Quantidade produzida (Toneladas)
 
-- LEFT JOIN between territorial and production datasets
-- Missing production values treated as zero
-- Density metric constructed as:
+Data collected directly from SIDRA API.
+
+---
+
+### 3️⃣ Density Calculation
+
+Territorial density was calculated as:
 
 ```python
-density_ton_km2 = production_ton / area_km2
-📂 Project Structure
-agro-spatial-intelligence/
+densidade_ton_km2 = producao_ton / area_km2
+
+This shifts the analysis from absolute production to spatial intensity.
+
+4️⃣ Statistical Classification
+
+Municipalities with zero production were isolated before classification.
+
+Quantile classification (q=3) was applied only to positive density values, generating:
+
+Baixa
+
+Média
+
+Alta
+
+This prevents distortion caused by structural zeros and ensures stable segmentation.
+
+Final categories:
+
+Sem produção
+
+Baixa
+
+Média
+
+Alta
+
+📊 Key Insights
+
+Production density is strongly concentrated in the southwest region of São Paulo.
+
+Coastal municipalities show structural absence of soybean production.
+
+Several municipalities rank high in territorial density despite not leading in total volume.
+
+Density-based ranking provides different strategic insights compared to total production ranking.
+
+🗺️ Final Output
+
+Categorical territorial density map:
+
+🏗️ Project Structure
+soy_density_sp/
 │
 ├── data/
 │   ├── raw/
 │   └── processed/
+│
+├── outputs/
+│   ├── soja_densidade_sp.geojson
+│   ├── soja_densidade_sp.csv
+│   └── mapa_soja_densidade_sp.png
 │
 ├── scripts/
 │   ├── 01_processa_municipios.py
@@ -90,48 +110,57 @@ agro-spatial-intelligence/
 │   ├── 03_merge_densidade.py
 │   └── 04_gera_mapa.py
 │
-├── outputs/
-│   ├── soja_densidade_sp.csv
-│   ├── soja_densidade_sp.geojson
-│   └── mapa_soja_densidade_sp.png
-│
 ├── requirements.txt
 └── README.md
-⚙️ Tech Stack
+⚙️ Pipeline Overview
+
+Process municipal shapefile
+
+Fetch soybean production data via API
+
+Merge datasets
+
+Compute territorial density
+
+Classify municipalities
+
+Generate map and export outputs
+
+🛠️ Technologies Used
 
 Python 3.11
 
-GeoPandas
-
 Pandas
+
+GeoPandas
 
 Matplotlib
 
-Requests (SIDRA API)
+Requests
 
-PyProj / Shapely
+IBGE SIDRA API
 
-📊 Limitations
+Git / GitHub
 
-Density is calculated using total municipal area (not planted area).
+📌 Why This Matters
 
-Single-year analysis (2021).
+Traditional agricultural analysis often focuses only on total production.
 
-Does not include climate or economic variables.
+Territorial density introduces a spatial intelligence perspective:
 
-🚀 Future Improvements
+Credit allocation
 
-Multi-year time series analysis
+Risk modeling
 
-Soybean vs corn comparison
+Logistics planning
 
-NDVI integration
+Regional investment strategy
 
-Spatial clustering
+Land-use intensity evaluation
 
-Predictive modeling
+This approach bridges agricultural data with geospatial analytics.
 
-👤 Author
+🚀 Author
 
 João Luiz de Pádua
-Geospatial Intelligence | Agro-Focused Data Analysis
+Geospatial Data | Agribusiness Intelligence | Spatial Analytics

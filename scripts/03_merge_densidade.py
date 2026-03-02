@@ -62,6 +62,23 @@ def main():
     # =========================
     print("Calculando densidade territorial...")
     gdf["densidade_ton_km2"] = gdf["producao_ton"] / gdf["area_km2"]
+    print("\nResumo estatístico da densidade (ton/km²):")
+    print(gdf["densidade_ton_km2"].describe())
+
+
+    # Separar municípios sem produção
+    gdf["classe_densidade"] = "Sem produção"
+
+    # Aplicar quartis apenas para densidade > 0
+    mask = gdf["densidade_ton_km2"] > 0
+
+    gdf.loc[mask, "classe_densidade"] = pd.qcut(
+        gdf.loc[mask, "densidade_ton_km2"],
+        q=3,
+        labels=["Baixa", "Média", "Alta"]
+    )
+    print("\nDistribuição por classe de densidade:")
+    print(gdf["classe_densidade"].value_counts())
 
     # =========================
     # Visualização rápida: Top 5 municípios

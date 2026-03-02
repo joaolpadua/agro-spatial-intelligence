@@ -1,48 +1,62 @@
 from pathlib import Path
 import geopandas as gpd
 import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
 
 
-def main():
-    # =========================
-    # Definição de caminhos
-    # =========================
-    base_dir = Path(__file__).resolve().parent.parent
-    output_dir = base_dir / "outputs"
+def plot_mapa_categorico(gdf, output_path):
+    """
+    Gera mapa categórico de densidade territorial de soja.
+    Espera GeoDataFrame com coluna 'classe_densidade'.
+    """
 
-    print("Carregando base final com densidade...")
-    gdf = gpd.read_file(output_dir / "soja_densidade_sp.geojson")
-
-    # =========================
-    # Configuração do mapa
-    # =========================
     fig, ax = plt.subplots(figsize=(10, 12))
 
-    # Plot com escala contínua
+    # Definição explícita de cores para controle visual executivo
+    cores = {
+        "Sem produção": "#f0f0f0",
+        "Baixa": "#fdd49e",
+        "Média": "#fc8d59",
+        "Alta": "#d7301f"
+    }
+
+    gdf["cor"] = gdf["classe_densidade"].map(cores)
+
     gdf.plot(
-        column="densidade_ton_km2",
-        cmap="YlOrRd",  # Amarelo → Laranja → Vermelho
+        color=gdf["cor"],
         linewidth=0.2,
         edgecolor="gray",
-        legend=True,
         ax=ax
     )
 
-    # =========================
-    # Ajustes visuais
-    # =========================
+    # Legenda construída manualmente para manter ordem e padronização
+    handles = [
+        mpatches.Patch(color=cores[k], label=k)
+        for k in cores
+    ]
+
+    ax.legend(handles=handles, title="Classe de Densidade", loc="lower left")
+
     ax.set_title(
-        "Densidade Territorial de Produção de Soja (ton/km²)\nSão Paulo - 2021",
-        fontsize=14
+        "Densidade Territorial de Produção de Soja (ton/km²)\nSão Paulo - 2021"
     )
 
     ax.axis("off")
 
-    # =========================
-    # Salvar mapa
-    # =========================
-    output_path = output_dir / "mapa_soja_densidade_sp.png"
     plt.savefig(output_path, dpi=300, bbox_inches="tight")
+    plt.close()
+
+
+def main():
+    base_dir = Path(__file__).resolve().parent.parent
+    output_dir = base_dir / "outputs"
+
+    print("Carregando base final...")
+    gdf = gpd.read_file(output_dir / "soja_densidade_sp.geojson")
+
+    output_path = output_dir / "mapa_soja_densidade_sp.png"
+
+    plot_mapa_categorico(gdf, output_path)
 
     print("Mapa salvo em:", output_path)
 
