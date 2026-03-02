@@ -101,6 +101,7 @@ Categorical territorial density map:
 ![Soybean Density Map](outputs/mapa_soja_densidade_sp.png)
 
 ### 🏗️ Project Structure
+
 soy_density_sp/
 │
 ├── data/
