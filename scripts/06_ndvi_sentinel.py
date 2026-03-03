@@ -2,9 +2,13 @@ from pathlib import Path
 import geopandas as gpd
 from pystac_client import Client
 import planetary_computer as pc
+import stackstac
+import rioxarray
+import matplotlib.pyplot as plt
 
 
 def main():
+
     # =========================
     # Caminhos
     # =========================
@@ -14,16 +18,26 @@ def main():
     print("Carregando municípios...")
     gdf = gpd.read_file(municipios_path)
 
-    # Converter para WGS84 para consulta STAC
-    gdf_wgs84 = gdf.to_crs(epsg=4326)
+    # Selecionar município teste
+    municipio = gdf[gdf["nome_municipio"] == "Salto Grande"]
+    print("Município selecionado:", municipio["nome_municipio"].values[0])
 
-    bbox = gdf_wgs84.total_bounds
+    # STAC exige bbox em WGS84
+    municipio_wgs84 = municipio.to_crs(epsg=4326)
+    bbox = municipio_wgs84.total_bounds.tolist()
 
+    print("BBOX em graus:", bbox)
+
+    # =========================
+    # Conectar ao STAC
+    # =========================
     print("Conectando ao STAC (Planetary Computer)...")
-    catalog = Client.open("https://planetarycomputer.microsoft.com/api/stac/v1")
+    catalog = Client.open(
+        "https://planetarycomputer.microsoft.com/api/stac/v1",
+        modifier=pc.sign_inplace
+    )
 
-    print("Buscando Sentinel-2 (2021-11 a 2022-03)...")
-
+    print("Buscando Sentinel-2...")
     search = catalog.search(
         collections=["sentinel-2-l2a"],
         bbox=bbox,
@@ -31,31 +45,62 @@ def main():
         query={"eo:cloud_cover": {"lt": 20}},
     )
 
-    items = list(search.get_items())
+    items = list(search.items())
+    print("Cenas encontradas:", len(items))
 
-    print(f"Cenas encontradas: {len(items)}")
+    if not items:
+        print("Nenhuma cena encontrada.")
+        return
+
+    # Usar apenas 1 cena
+    items = items[:1]
     item = items[0]
 
-    print("\nLink da banda B04 (Red):")
-    print(item.assets["B04"].href)
+    # =========================
+    # Empilhar bandas (CRS nativo)
+    # =========================
+    print("Empilhando bandas B04 e B08...")
 
-    print("\nLink da banda B08 (NIR):")
-    print(item.assets["B08"].href)
+    stack = stackstac.stack(
+    items,
+    assets=["B04", "B08"],
+    resolution=10,
+    epsg=32722
+    )   
 
-    print("\nID da cena:")
-    print(item.id)
+    print("CRS do raster:", stack.rio.crs)
 
-    print("\nData da cena:")
-    print(item.datetime)
+    # Separar bandas
+    red = stack.sel(band="B04")
+    nir = stack.sel(band="B08")
 
-    print("\nCobertura de nuvem:")
-    print(item.properties.get("eo:cloud_cover"))
+    # Calcular NDVI
+    ndvi = (nir - red) / (nir + red)
+    print("NDVI calculado.")
 
-    print("\nBBOX:")
-    print(item.bbox)
+    # Garantir CRS
+    ndvi = ndvi.rio.write_crs(stack.rio.crs)
 
-    print("\nAssets disponíveis:")
-    print(list(item.assets.keys()))
+    # Reprojetar município para CRS do raster
+    municipio_proj = municipio.to_crs(stack.rio.crs)
+
+    # Recorte espacial
+    ndvi_clip = ndvi.rio.clip(
+        municipio_proj.geometry,
+        municipio_proj.crs,
+        drop=True
+    )
+
+    print("NDVI recortado.")
+
+    # =========================
+    # Plot
+    # =========================
+    plt.figure(figsize=(8, 6))
+    ndvi_clip.isel(time=0).plot(cmap="RdYlGn")
+    plt.title("NDVI - Salto Grande (Safra 2021/2022)")
+    plt.tight_layout()
+    plt.show()
 
 
 if __name__ == "__main__":
