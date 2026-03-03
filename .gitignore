@@ -10,6 +10,9 @@ __pycache__/
 # Dados brutos
 data/raw/
 
+# NDVI outputs
+outputs/ndvi_*.png
+
 # VS Code
 .vscode/
 
