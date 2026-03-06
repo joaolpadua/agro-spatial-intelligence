@@ -15,6 +15,7 @@ from scipy.signal import find_peaks
 # ==========================================================
 # Salvar snapshot NDVI de uma data específica
 # ==========================================================
+
 def salvar_ndvi_snapshot(ndvi_clip, date, path):
 
     # selecionar cena
