@@ -11,9 +11,8 @@ __pycache__/
 data/raw/
 
 # Outputs 
-outputs/ndvi_*.png
-outputs/*.csv
-outputs/*.png
+outputs/
+
 
 # VS Code
 .vscode/
