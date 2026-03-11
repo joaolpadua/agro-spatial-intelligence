@@ -170,9 +170,13 @@ agricultural seasons.
 
 ### 🗺️ Final Output
 
-Categorical territorial density map:
+Categorical territorial density map (gerada em `outputs/`):
 
-[Soybean Density Map]
+> O diretório `outputs/` é gerado pelos scripts e não é versionado por padrão.
+
+Exemplo de mapa gerado (armazenado em `docs/` para visualização no GitHub):
+
+![NDVI Crop Cycles](docs/ndvi_crop_cycles_lucas.png)
 
 ------------------------------------------------------------------------
 
