@@ -168,13 +168,13 @@ agricultural seasons.
 
 ------------------------------------------------------------------------
 
-### 🗺️ Final Output
+### 🗺️ Resultado Final
 
-Categorical territorial density map (gerada em `outputs/`):
+Mapa de densidade territorial (gerado em `outputs/`):
 
+> O diretório `outputs/` é gerado pelos scripts e não é versionado por padrão.
 
-
-![NDVI Crop Cycles](docs/ndvi_crop_cycles_lucas.png)
+![Mapa de densidade de soja](docs/mapa_soja_densidade_sp.png)
 
 ------------------------------------------------------------------------
 
